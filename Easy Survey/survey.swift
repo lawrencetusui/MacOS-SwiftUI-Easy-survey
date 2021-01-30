@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct  survey: Decodable {
+    let text: String
+    let children: [survey]?
+}
